@@ -3,7 +3,7 @@ import os
 def crearArchivo (ruta) :
     archivo=input ("Indique el nombre del Archivo: ")
     #Crear el archivo
-    manejador=open (ruta+archivo, "W")
+    manejador=open (ruta+archivo, "w")
     manejador.close()
     print("Archivo", archivo, "creado con exito") 
 

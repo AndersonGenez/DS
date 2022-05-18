@@ -5,5 +5,6 @@ def crearCarpeta(ruta) :
     os.mkdir (ruta+carpeta)
     print("Carpeta ", carpeta, "creada con exito")
 
-def eliminarCarpeta (rutaCompleta) :
+def eliminarCarpeta(rutaCompleta) :
     os.rmdir (rutaCompleta)
+    print("Carpeta eliminada con exito")
